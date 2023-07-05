@@ -1,0 +1,17 @@
+baseURL         = 'http://example.org/'
+languageCode    = 'en-us'
+title           = 'ITM 101 Activities'
+theme           = 'hugo-theme-introduction'
+
+[params]
+    fadeIn = false
+    showMenu = false
+
+    [params.home]
+        introHeight = "fullheight"
+
+[module]
+    [[module.mounts]]
+        excludeFiles    = '*/README.md'
+        source          = 'content'
+        target          = 'content'
